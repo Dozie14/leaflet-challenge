@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Leaflet Step-1</title>
+    <meta charset="utf-8" />
+    <title>Geo JSON</title>
 
     <!-- Leaflet CSS -->
     <link
@@ -14,12 +12,15 @@
       crossorigin=""
     />
 
+    <!--D3 cdn-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
     <!-- Our CSS -->
-    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
   </head>
 
   <body>
-    <!-- The div that holds our map -->
+    <!-- The div where we will inject our map -->
     <div id="map"></div>
 
     <!-- Leaflet JS -->
@@ -28,11 +29,9 @@
       integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
       crossorigin=""
     ></script>
-    <!-- D3 JavaScript -->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- API key -->
     <script type="text/javascript" src="static/js/config.js"></script>
-    <!-- Our JavaScript -->
+    <!-- Our JS -->
     <script type="text/javascript" src="static/js/logic.js"></script>
   </body>
 </html>
